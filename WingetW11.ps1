@@ -1,4 +1,4 @@
-﻿winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Foxit.FoxitReader
+winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Foxit.FoxitReader
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Google.Chrome
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Mozilla.Firefox
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements 7zip.7zip
