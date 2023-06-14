@@ -4,5 +4,5 @@ Import-Module PSWindowsUpdate
 
 Add-WUServiceManager -MicrosoftUpdate
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
-exit
+
  
