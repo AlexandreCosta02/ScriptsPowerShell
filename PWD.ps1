@@ -1,4 +1,4 @@
-﻿winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Foxit.FoxitReader
+winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Foxit.FoxitReader
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Google.Chrome
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements Mozilla.Firefox
 winget install -h --Accept-Package-Agreements --Accept-Source-Agreements 7zip.7zip
@@ -24,6 +24,4 @@ winget install -h Microsoft.VCRedist.2015+.x86
 winget install -h Microsoft.VCRedist.2013.x64
 winget install -h Microsoft.VCRedist.2013.x86
 winget install -h Microsoft.DirectX
-winget upgrade -h --all
-exit
- 
+winget upgrade -h --all 
