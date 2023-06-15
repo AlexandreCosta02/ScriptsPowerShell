@@ -1,1 +1,1 @@
-﻿winget install -h --Accept-Package-Agreements --Accept-Source-Agreements SlackTechnologies.Slack
+winget install -h --Accept-Package-Agreements --Accept-Source-Agreements SlackTechnologies.Slack
