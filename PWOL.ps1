@@ -27,4 +27,3 @@ winget install -h Microsoft.VCRedist.2013.x64
 winget install -h Microsoft.VCRedist.2013.x86
 winget install -h Microsoft.DirectX
 winget upgrade -h --all
- 
