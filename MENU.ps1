@@ -11,7 +11,51 @@ function msr {
   Start-Sleep -Seconds 2
   DisplayMenu
 }
-
+function pwdln {
+  Invoke-WebRequest -useb https://tinyurl.com/saioi | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwdl {
+  Invoke-WebRequest -useb https://tinyurl.com/saioo | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwdn {
+  Invoke-WebRequest -useb https://tinyurl.com/saioq | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwd {
+  Invoke-WebRequest -useb https://tinyurl.com/saiow | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwoln {
+  Invoke-WebRequest -useb https://tinyurl.com/saioe | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwol {
+  Invoke-WebRequest -useb https://tinyurl.com/saior | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwon {
+  Invoke-WebRequest -useb https://tinyurl.com/saiod | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function pwo {
+  Invoke-WebRequest -useb https://tinyurl.com/wgw11 | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+function slack {
+  Invoke-WebRequest -useb https://tinyurl.com/saiof | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
 function wupdt {
   Invoke-WebRequest -useb https://tinyurl.com/WU653 | Invoke-Expression
   Start-Sleep -Seconds 2
@@ -61,66 +105,39 @@ Switch ($MENU)
 }
 4 {
 #OPTION4 - PWDLN
-$PWDLN = Invoke-WebRequest -useb https://tinyurl.com/saioi | Invoke-Expression
-Write-Host "$PWDLN"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwdln
 }
 5 {
 #OPTION5 - PWDL
-$PWDL = Invoke-WebRequest -useb https://tinyurl.com/saioo | Invoke-Expression
-Write-Host "$PWDL"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwdl
 }
 6 {
 #OPTION6 - PWDN
-$PWDN = Invoke-WebRequest -useb https://tinyurl.com/saioq | Invoke-Expression
-Write-Host "$PWDN"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwdn
 }
 7 {
 #OPTION7 - PWD
-$PWD = Invoke-WebRequest -useb https://tinyurl.com/saiow | Invoke-Expression
-Write-Host "$PWD"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwd
 }
 8 {
 #OPTION8 - PWOLN
-$PWOLN = Invoke-WebRequest -useb https://tinyurl.com/saioe | Invoke-Expression
-Write-Host "$PWOLN"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwoln
 }
 9 {
 #OPTION9 - PWOL
-$PWOL = Invoke-WebRequest -useb https://tinyurl.com/saior | Invoke-Expression
-Write-Host "$PWOL"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwol
 }
 10 {
 #OPTION10 - PWON
-$PWON = Invoke-WebRequest -useb https://tinyurl.com/saiod | Invoke-Expression
-Write-Host "$PWON"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwon
 }
 11 {
 #OPTION11 - PWO
-$PWO = Invoke-WebRequest -useb https://tinyurl.com/wgw11 | Invoke-Expression
-Write-Host "$PWO"
-Start-Sleep -Seconds 2
-DisplayMenu
+  pwo
 }
 12 {
 #OPTION12 - SLACK
-$SLACK = Invoke-WebRequest -useb https://tinyurl.com/saiof | Invoke-Expression
-Write-Host "$SLACK"
-Start-Sleep -Seconds 2
-DisplayMenu
+  slack
 }
 13 {
 #OPTION13 - WUPDT
