@@ -1,3 +1,12 @@
+function stress {
+  $i=0
+  while($true)
+  {
+  $i
+  $i++
+  }
+}
+
 function DisplayMenu {
 Clear-Host
 Write-Host @"
@@ -30,10 +39,7 @@ Switch ($MENU)
 {
 1 {
 #OPTION1 - CPUSTRESS
-$CPUSTRESS = Invoke-WebRequest -useb https://tinyurl.com/wqe89 | Invoke-Expression
-Write-Host "$CPUSTRESS"
-Start-Sleep -Seconds 2
-DisplayMenu
+  stress
 }
 2 {
 #OPTION2 - CTT
