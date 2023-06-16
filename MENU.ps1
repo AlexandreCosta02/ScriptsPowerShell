@@ -2,8 +2,9 @@ function DisplayMenu {
 Clear-Host
 Write-Host @"
 +===========================================+
-|             MENU DE OPCOES                | 
+|                  [ETH]                    |
 +===========================================+
+|              MENU DE OPCOES               |
 |                                           |
 |    1) CPU STRESS                          |
 |    2) CTT                                 |
