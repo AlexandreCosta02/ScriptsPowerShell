@@ -69,15 +69,15 @@ Write-Host @"
 +===========================================+
 |              MENU DE OPCOES               |
 |                                           |
-|    1) CPU STRESS                          |
-|    2) CTT                                 |
-|    3) MICROSOFT STORE REPAIR              |
-|    4) PADRONIZACAO W10 LIBRE NVIDIA       |
-|    5) PADRONIZACAO W10 LIBRE              |
-|    6) PADRONIZACAO W10 NVIDIA             |
-|    7) PADRONIZACAO W10                    |
-|    8) PADRONIZACAO W11 LIBRE NVIDIA       |
-|    9) PADRONIZACAO W11 LIBRE              |
+|     1) CPU STRESS                         |
+|     2) CTT                                |
+|     3) MICROSOFT STORE REPAIR             |
+|     4) PADRONIZACAO W10 LIBRE NVIDIA      |
+|     5) PADRONIZACAO W10 LIBRE             |
+|     6) PADRONIZACAO W10 NVIDIA            |
+|     7) PADRONIZACAO W10                   |
+|     8) PADRONIZACAO W11 LIBRE NVIDIA      |
+|     9) PADRONIZACAO W11 LIBRE             |
 |    10) PADRONIZACAO W11 NVIDIA            |
 |    11) PADRONIZACAO W11                   |
 |    12) SLACK                              |
