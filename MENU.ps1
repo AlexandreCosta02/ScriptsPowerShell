@@ -2,7 +2,7 @@ function DisplayMenu {
 Clear-Host
 Write-Host @"
 +===========================================+
-|             MENU DE OPÇÕES                | 
+|             MENU DE OPCOES                | 
 +===========================================+
 |                                           |
 |    1) CPU STRESS                          |
@@ -24,7 +24,7 @@ Write-Host @"
 
 "@
 
-$MENU = Read-Host "Digite o número da opção desejada"
+$MENU = Read-Host "Digite o numero da opcao desejada"
 Switch ($MENU)
 {
 1 {
@@ -125,7 +125,7 @@ Break
 }
 default {
 #DEFAULT OPTION
-Write-Host "A opção digitada não existe!"
+Write-Host "A opcao digitada nao existe!"
 Start-Sleep -Seconds 2
 DisplayMenu
 }
