@@ -1,7 +1,9 @@
 function stress {
   Invoke-WebRequest -useb https://tinyurl.com/wqe89 | Invoke-Expression
 }
-
+function ctt {
+  Invoke-WebRequest -useb https://christitus.com/win | Invoke-Expression
+}
 function DisplayMenu {
 Clear-Host
 Write-Host @"
@@ -38,10 +40,7 @@ Switch ($MENU)
 }
 2 {
 #OPTION2 - CTT
-$CTT = Invoke-WebRequest -useb https://christitus.com/win | Invoke-Expression
-Write-Host "$CTT"
-Start-Sleep -Seconds 2
-DisplayMenu
+  ctt
 }
 3 {
 #OPTION3 - MSR
