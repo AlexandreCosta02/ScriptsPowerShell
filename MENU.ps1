@@ -6,6 +6,17 @@ function ctt {
   Start-Sleep -Seconds 2
   DisplayMenu
 }
+function msr {
+  Invoke-WebRequest -useb https://tinyurl.com/saiou | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
+
+function wupdt {
+  Invoke-WebRequest -useb https://tinyurl.com/WU653 | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
+}
 function DisplayMenu {
 Clear-Host
 Write-Host @"
@@ -45,11 +56,8 @@ Switch ($MENU)
   ctt
 }
 3 {
-#OPTION3 - MSR
-$MSR = Invoke-WebRequest -useb https://tinyurl.com/saiou | Invoke-Expression
-Write-Host "$MSR"
-Start-Sleep -Seconds 2
-DisplayMenu
+#OPTION3 - MSR 
+  msr
 }
 4 {
 #OPTION4 - PWDLN
@@ -116,10 +124,7 @@ DisplayMenu
 }
 13 {
 #OPTION13 - WUPDT
-$WUPDT = Invoke-WebRequest -useb https://tinyurl.com/WU653 | Invoke-Expression
-Write-Host "$WUPDT"
-Start-Sleep -Seconds 2
-DisplayMenu
+  wupdt
 }
 14 {
 #OPTION14 - EXIT
