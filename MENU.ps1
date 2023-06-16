@@ -3,6 +3,8 @@ function stress {
 }
 function ctt {
   Invoke-WebRequest -useb https://christitus.com/win | Invoke-Expression
+  Start-Sleep -Seconds 2
+  DisplayMenu
 }
 function DisplayMenu {
 Clear-Host
