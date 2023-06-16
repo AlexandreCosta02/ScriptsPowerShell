@@ -146,7 +146,7 @@ Switch ($MENU)
 14 {
 #OPTION14 - EXIT
 Write-Host "Valeu Falou"
-Break
+Exit
 }
 default {
 #DEFAULT OPTION
